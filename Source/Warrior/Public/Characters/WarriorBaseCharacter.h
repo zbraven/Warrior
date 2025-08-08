@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Vince Petrelli All Rights Reserved
 
 #pragma once
 
@@ -14,7 +14,5 @@ class WARRIOR_API AWarriorBaseCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AWarriorBaseCharacter();
-
-
 
 };
