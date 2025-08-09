@@ -1,3 +1,5 @@
+// Vince Petrelli All Rights Reserved
+
 #pragma once
 
 #include "CoreMinimal.h"
@@ -12,4 +14,7 @@ class WARRIOR_API UWarriorAbilitySystemComponent : public UAbilitySystemComponen
 {
 	GENERATED_BODY()
 	
+public:
+	void OnAbilityInputPressed(const FGameplayTag& InInputTag);
+	void OnAbilityInputReleased(const FGameplayTag& InInputTag);
 };
